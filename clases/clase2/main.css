@@ -1,0 +1,25 @@
+body {
+	font-size: 16px;
+}
+
+.PrimerDiv {
+	margin: 50px auto; /* top right down left. Tmb puedo poner 50px 30px por ej que sería top-down left-right necesito poner width si quiero uqe ande */
+	width: 6em;
+}
+
+.SegundoDiv {
+	widows: 10em;
+}
+/*
+.MyNav {
+	background-color: red;
+}
+
+.MyNav-list {
+	background-color: blue;
+}
+
+.u-colorRed {
+	color: red;
+}
+*/
