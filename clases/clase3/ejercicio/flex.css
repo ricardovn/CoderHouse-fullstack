@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	border: 2px solid green;
+	/*min-height: 200px;*/
+	position: relative;
+
+}
+
+nav {
+
+}
+
+section {
+	margin-left: 15%;
+	border: 2px solid green;
+	padding: 50px 0;
+}
+
+.flexbox-ex {
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-align-items: center;
+	align-items: center; /*cemtrado vertical*/
+
+    -webkit-justify-content: center;
+    justify-content: center; /*centra horizontalmente*/
+
+	position: absolute;
+	width: 15%;
+	height: 100%;
+}

@@ -2,11 +2,15 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin: 60px 0 0;
+}
+
 #content {
-	border: 2px solid black;
 	border-width: 2px;
-	width: 50px;
+	border: 2px solid black;
 	padding: 5px;
+	width: 50px;
 }
 
 .position-relative-ex {
@@ -16,9 +20,73 @@
 
 .position-absolute-ex {
 	position: relative;
+	background-color: red;
+	height: 40px;
+	width: 40px;
 	
 }
 
 .position-absolute-ex > div {
+	background-color: green;
+	height: 40px;
 	position: absolute;
+	width: 40px;
 }
+
+.position-fixed {
+	height: 30px;
+	position: fixed;
+	top: 0;
+}
+
+.float-ex {
+	/* height: 80px; */
+}
+
+.float-left {
+	background-color: red;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+.float-right {
+	background-color: green;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+
+.br {
+	clear: both;
+}		
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}	
+
+.display-inline-ex li {
+	display: inline-block;
+}
+
+.flexbox-ex {
+	-webkit-align-items: center;
+	align-items: center;
+	border: 1px solid black;
+	display: -webkit-flex;
+	display: flex;
+	height: 100px;
+	-webkit-justify-content: center;
+	justify-content: center; /*centra horizontalmente*/
+}
+
+.flexbox-ex div{
+	background-color: red;
+	height: 40px;
+	width: 40px;
+}
+
+
+
+

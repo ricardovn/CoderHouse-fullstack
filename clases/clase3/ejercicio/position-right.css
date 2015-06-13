@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	border: 2px solid green;
+	min-height: 100px;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	border: 2px solid green;
+}
+
+section {
+	border: 2px solid green;
+	margin-right: 15%;
+	padding: 50px 0;
+}
