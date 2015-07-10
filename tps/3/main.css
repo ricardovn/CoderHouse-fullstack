@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, main, nav, div {
+	height: 100%; /* de no poner al 100% estos elementos, no puedo centrar horizontalmente*/
+}
+
+body {
+	margin: 0; /* porque el browser asgina un margin por defecto */
+	font-size: 14px;
+}
+
+nav {
+	position: fixed;
+	width: 13em; /* el cliente pidió ancho fijo... sino usaría un % */
+	border: 1px solid black;
+	background-color: #3B5998;
+}
+
+nav h1 {
+	font-size: 2em;
+	color: #ffffff;
+	text-align: center;
+	font-family: arial;
+	font-weight: lighter;
+}
+
+.chat {
+	width: 11em;
+	height: 19em;
+	margin: 100% auto;
+	background-color: #e3e3e3;
+}
+
+.chatUsers ul {
+	list-style: none;
+	padding: 10px;
+	margin: 0;	
+}
+
+.content {
+	margin-left: 13em;
+}
+
+.content section {
+	display: inline-block;
+	min-width: 30%;
+	height: 50%;
+	border: 2px solid #81d8d0;
+}
+
+.flexbox-ex {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
