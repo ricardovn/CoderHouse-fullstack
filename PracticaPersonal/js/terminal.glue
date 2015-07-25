@@ -1,0 +1,38 @@
+█ [ /Users/ricardovn/CoderHouse/PracticaPersonal/js ] console.log(fruit)
+/bin/sh: -c: line 0: syntax error near unexpected token `fruit'
+/bin/sh: -c: line 0: `console.log(fruit) '
+
+█ [ /Users/ricardovn/CoderHouse/PracticaPersonal/js ] debug(fruit)
+/bin/sh: -c: line 0: syntax error near unexpected token `fruit'
+/bin/sh: -c: line 0: `debug(fruit) '
+
+█ [ /Users/ricardovn/CoderHouse/PracticaPersonal/js ] debug(fruit)
+/bin/sh: -c: line 0: syntax error near unexpected token `fruit'
+/bin/sh: -c: line 0: `debug(fruit) '
+
+█ [ /Users/ricardovn/CoderHouse/PracticaPersonal/js ] var maxSpeed = {car:300, bike:60, motorbike:200, airplane:1000,
+    helicopter:400, rocket:8*60*60}
+var sortable = [];
+for (var vehicle in maxSpeed)
+      sortable.push([vehicle, maxSpeed[vehicle]]);
+sortable.sort(function(a, b) {return b[1] - a[1]});
+
+debug(JSON.stringify(sortable,null, 0)); //función para mostrar el contenido de un objeto bien
+debug(sortable);
+//[["bike", 60], ["motorbike", 200], ["car", 300],
+//["helicopter", 400], ["airplane", 1000], ["rocket", 28800]]
+
+var fruit = ['cherries', 'apples', 'bananas'];
+fruit.sort(); // ['apples', 'bananas', 'cherries']
+
+debug(fruit); 
+
+
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `var maxSpeed = {car:300, bike:60, motorbike:200, airplane:1000, helicopter:400, rocket:8*60*60} var sortable = []; for (var vehicle in maxSpeed) sortable.push([vehicle, maxSpeed[vehicle]]); sortable.sort(function(a, b) {return b[1] - a[1]}); debug(JSON.stringify(sortable,null, 0)); //función para mostrar el contenido de un objeto bien debug(sortable); //[[bike, 60], [motorbike, 200], [car, 300], //[helicopter, 400], [airplane, 1000], [rocket, 28800]] var fruit = [cherries, apples, bananas]; fruit.sort(); // [apples, bananas, cherries] debug(fruit);'
+
+█ [ /Users/ricardovn/CoderHouse/PracticaPersonal/js ] debug(fruit)
+/bin/sh: -c: line 0: syntax error near unexpected token `fruit'
+/bin/sh: -c: line 0: `debug(fruit) '
+
+ 
