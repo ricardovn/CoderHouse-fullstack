@@ -5,8 +5,8 @@ function multiplicar(num1, num2) {
 function obtenerResultados(operacion) {
 	var resultado = [];
 	for (var i=1; i<arguments.length; i+=2) {
-		if (typeof arguments[i] !== "number" || typeof arguments[i+1] !== "number"){
-				if (arguments[i+1] === undefined){
+		if (isNaN(arguments[i]) || isNaN(arguments[i+1])){
+				if ((arguments.length % 2) === 0){
 					throw new Error ("Te falta agregar un número más");
 				}
 				else {
